@@ -13,7 +13,7 @@ async def fetch_pexels():
             params={
                 "query": "cityscape",
                 "per_page": 1,
-                "page": random.randint(10, 500)
+                "page": random.randint(1, 500)
 
             },
         )
